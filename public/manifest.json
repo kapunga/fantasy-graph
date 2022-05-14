@@ -1,0 +1,20 @@
+{
+  "name": "Fantasy Graph",
+  "description": "A Chrome extension for adding fantasy points to fan graphs.",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "permissions": [],
+  "host_permissions": [ "https://fangraphs.com/*" ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.fangraphs.com/players/*"],
+      "js": ["playerStats.js"]
+    }
+  ],
+  "icons": {
+    "16": "/images/icon16.png",
+    "32": "/images/icon32.png",
+    "48": "/images/icon48.png",
+    "128": "/images/icon128.png"
+  }
+}

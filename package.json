@@ -1,0 +1,31 @@
+{
+  "name": "fantasy-graph",
+  "version": "0.0.1",
+  "description": "A Chrome Extension for adding fantasy stats to FanGraphs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kapunga/fantasy-graph.git"
+  },
+  "author": "Paul J Thordarson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kapunga/fantasy-graph/issues"
+  },
+  "homepage": "https://github.com/kapunga/fantasy-graph#readme",
+  "devDependencies": {
+    "copy-webpack-plugin": "^10.2.4",
+    "html-webpack-plugin": "^5.5.0",
+    "typescript": "^4.6.4",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "@types/chrome": "^0.0.185",
+    "@types/jquery": "^3.5.14"
+  }
+}
